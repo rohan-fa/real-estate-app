@@ -12,6 +12,9 @@ const Layout = ({children}) => (
         <header>
           <Navbar />
         </header>
+        <body>
+          
+        </body>
         <main>
             {children}
         </main>
