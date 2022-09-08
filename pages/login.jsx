@@ -3,7 +3,7 @@ import { supabase } from '../utils/supabaseClient'
 import Auth from '../components/Auth'
 import Account from '../components/Account'
 
-export default function login() {
+export default function Login() {
   const [isLoading, setIsLoading] = useState(true)
   const [session, setSession] = useState(null)
 
