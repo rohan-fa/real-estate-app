@@ -2,6 +2,9 @@ import Head from "next/head";
 import { Box } from "@chakra-ui/react"
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Body from "./Body";
+import Features from "./Features";
+
 
 const Layout = ({children}) => (
     <>
@@ -12,11 +15,10 @@ const Layout = ({children}) => (
         <header>
           <Navbar />
         </header>
-        <body>
-          
-        </body>
         <main>
             {children}
+            <Body />
+            <Features />
         </main>
         <footer>
           <Footer /> 

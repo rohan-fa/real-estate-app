@@ -18,14 +18,14 @@ const Property = ({ property: { coverPhoto, price, rentFrequency, rooms, title, 
       <Box w='full'>
         <Flex paddingTop='2' alignItems='center' justifyContent='space-between'>
           <Flex alignItems='center'>
-            <Box paddingRight='3' color='green.400'>{isVerified && <GoVerified />}</Box>
+            <Box paddingRight='3' color='#006400'>{isVerified && <GoVerified />}</Box>
             <Text fontWeight='bold' fontSize='lg'>AUD {millify(price)}{rentFrequency && `/${rentFrequency}`}</Text>
           </Flex>
           <Box>
             <Avatar size='sm' src={agency?.logo?.url}></Avatar>
           </Box>
       </Flex>
-        <Flex alignItems='center' p='1' justifyContent='space-between' w='250px' color='blue.400'>
+        <Flex alignItems='center' p='1' justifyContent='space-between' w='250px' color='#006400'>
             {rooms}
           <FaBed /> | {baths} <FaBath /> | {millify(area)} sqft <BsGridFill />
         </Flex>

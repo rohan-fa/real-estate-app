@@ -3,12 +3,13 @@ import { Menu, MenuButton, MenuList, MenuItem, IconButton, Flex, Box, Spacer } f
 import { FcMenu, FcHome, FcAbout } from 'react-icons/fc';
 import { BsSearch } from 'react-icons/bs';
 import { FiKey } from 'react-icons/fi';
+import { FiLogIn } from 'react-icons/fi'
 
 
 const Navbar = () => (
-    <Flex p='2' borderBottom='1px' borderColor='gray.100'>
-        <Box fontSize='3xl' color='blue.400' fontWeight='bold'>
-            <Link href='/' paddingLeft='2'>Rent-Up</Link>
+    <Flex p='2' borderBottom='1px' borderColor='gray.100' container='0 auto'>
+        <Box fontSize='3xl' color='#006400' fontWeight='bold'>
+            <Link href='/' paddingLeft='2' ml="8" size="md" fontWeight='bold' >Rent-Up</Link>
         </Box>
         <Spacer />
         <Box>
@@ -27,11 +28,8 @@ const Navbar = () => (
                     <Link href='/search?purpose=for-rent' passHref>
                         <MenuItem icon={<FiKey />}>Rent Property</MenuItem>
                     </Link>
-                    <Link href='/signup' passHref>
-                        <MenuItem>Sign Up</MenuItem>
-                    </Link>
                     <Link href='/login' passHref>
-                        <MenuItem>Login</MenuItem>
+                        <MenuItem icon={<FiLogIn />}>Login</MenuItem>
                     </Link>
                 </MenuList>
             </Menu>

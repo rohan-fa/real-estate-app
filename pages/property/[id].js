@@ -20,7 +20,7 @@ const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title
             <Spacer />
             <Avatar size='sm' src={agency?.logo?.url}></Avatar>
         </Flex>
-        <Flex alignItems='center' p='1' justifyContent='space-between' w='250px' color='blue.400'>
+        <Flex alignItems='center' p='1' justifyContent='space-between' w='250px' color='#006400'>
             {rooms}<FaBed /> | {baths} <FaBath /> | {millify(area)} sqft <BsGridFill />
         </Flex>
         </Box>
@@ -49,7 +49,7 @@ const PropertyDetails = ({ propertyDetails: { price, rentFrequency, rooms, title
                 <Flex flexWrap='wrap'>
                 {amenities?.map((item) => (
                     item?.amenities?.map((amenity) => (
-                        <Text key={amenity.text} fontWeight='bold' color='blue.400' fontSize='l' p='2' bg='gray.200' m='1' borderRadius='5'>
+                        <Text key={amenity.text} fontWeight='bold' color='#006400' fontSize='l' p='2' bg='gray.200' m='1' borderRadius='5'>
                         {amenity.text}
                         </Text>
                     ))
