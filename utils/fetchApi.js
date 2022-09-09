@@ -11,7 +11,7 @@ export const fetchApi = async (url) => {
             'X-RapidAPI-Host': 'bayut.p.rapidapi.com'
           }
     });
-    console.log( JSON.stringify(data) );
+    // console.log( JSON.stringify(data) );
     return data;
 }
 

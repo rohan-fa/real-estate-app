@@ -3,7 +3,8 @@ import { Menu, MenuButton, MenuList, MenuItem, IconButton, Flex, Box, Spacer } f
 import { FcMenu, FcHome, FcAbout } from 'react-icons/fc';
 import { BsSearch } from 'react-icons/bs';
 import { FiKey } from 'react-icons/fi';
-import { FiLogIn } from 'react-icons/fi'
+import { FiLogIn } from 'react-icons/fi';
+
 
 
 const Navbar = () => (
@@ -30,7 +31,7 @@ const Navbar = () => (
                     </Link>
                     <Link href='/login' passHref>
                         <MenuItem icon={<FiLogIn />}>Login</MenuItem>
-                    </Link>
+                    </Link>     
                 </MenuList>
             </Menu>
         </Box>
