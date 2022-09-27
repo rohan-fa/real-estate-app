@@ -1,34 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# **Real Estate App**
+## About the project
+Real Estate Application visitors can buy, sell or rent. Visitors can easily filter their searches by type, location, price, and other predefined and custom criteria. Each property has a detailed description, community and property features, location, price, and a great image gallery. In addition, buyers of real estate can find contacts of sellers. 
 
-## Getting Started
+### What  I have learned:
+This project was merely a learning exercise and my first sizeable project delving into `NextJs` and `Supabase`.
+## Overview
+ **[Real Estate App](https://real-estate-app-eosin.vercel.app/)**
 
-First, run the development server:
+ # Technologies Used
+ - [Next.js](https://nextjs.org/)
+ - [Supabase](https://supabase.com/)
+ - [Chakra UI](https://chakra-ui.com/) 
+ - [millify](https://www.npmjs.com/package/millify)
+ - [nprogress](https://www.npmjs.com/package/nprogress)
+ - [React](https://reactjs.org/)
+ - [Axios](https://axios-http.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+ API server link: Rapid [API](https://rapidapi.com/hub)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ # Main goals of this project:
+ - Create Full Stack App independentl
+ - Finding and using new technologies for specific tasks
+ - Brainstorm idea
+- Worked on different git branches
+- commited frequently 
+- Styling the Project
+- Deploying project
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
