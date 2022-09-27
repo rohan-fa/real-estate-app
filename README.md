@@ -19,12 +19,12 @@ This project was merely a learning exercise and my first sizeable project delvin
  API server link: Rapid [API](https://rapidapi.com/hub)
 
  # Main goals of this project:
- - Create Full Stack App independentl
+ - Creating Full Stack App
  - Finding and using new technologies for specific tasks
  - Brainstorm idea
 - Worked on different git branches
 - commited frequently 
-- Styling the Project
+- Styling the project
 - Deploying project
 
 
