@@ -7,6 +7,11 @@ This project was merely a learning exercise and my first sizeable project delvin
 ## Overview
  **[Real Estate App](https://real-estate-app-eosin.vercel.app/)**
 
+ ## Screenshoots:
+  ![Screen Shot 2023-01-11 at 9 38 38 pm](https://user-images.githubusercontent.com/107793873/211785512-6c9ec91f-6882-4ebd-8128-8322e74e5ca1.png)
+![Screen Shot 2023-01-11 at 9 39 09 pm](https://user-images.githubusercontent.com/107793873/211785525-6fd475c9-d509-4e0b-8a82-ec5939961b75.png)
+![Screen Shot 2023-01-11 at 9 39 31 pm](https://user-images.githubusercontent.com/107793873/211785543-c43601b8-fcf5-4c27-bdef-f88b397a563d.png)
+
  # Technologies Used
  - [Next.js](https://nextjs.org/)
  - [Supabase](https://supabase.com/)
